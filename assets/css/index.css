@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: border-size !important;
+          box-shadow: border-size !important;
+  background: linear-gradient(313deg, #bfc7de 0%, white 100%) !important;
+}
+
+.main {
+  width: 100%;
+  border-radius: 20px;
+  padding: 45px 45px 45px 75px;
+  margin: 10% 0;
+  background: linear-gradient(273deg, #e9f0ff 0%, white 100%);
+}
+
+.main header {
+  width: 100%;
+}
+
+.main header h1 {
+  font-size: 45px;
+  color: #271665;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.main .header__sub__title span {
+  width: 50px;
+  height: 2px;
+  background-color: #fa4c51;
+  float: left;
+}
+
+.main .header__sub__title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fa4c51;
+  margin-top: -10px;
+}
+
+.main .content {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.main .sign_up_button {
+  width: 100%;
+  border: solid 2px #efefef;
+  background: #fff;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #666;
+  padding: 10px 0;
+}
+
+.main .sign_up_button .goo {
+  color: #fa4c51;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.main .sign_up_button .face {
+  color: #223581;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.main .sign_up_button:hover {
+  border: solid 2px #e3e3e3;
+  -webkit-transition: linear 0.5s all;
+  transition: linear 0.5s all;
+}
+
+.main .sign__input {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #efefef;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+.main .sign__input:hover {
+  -webkit-transition: ease 0.3s all;
+  transition: ease 0.3s all;
+  border: solid 1px #cfcfcf;
+}
+
+.main #policyRead:hover,
+.main .policyText:hover {
+  cursor: pointer;
+}
+
+.main form button {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  color: #fff;
+  border: solid 1px #fa4c51;
+  outline: none;
+  background-color: #fa4c51;
+  font-size: 18px;
+}
+
+.main form button:hover {
+  background-color: #fc7478;
+  -webkit-transition: ease .6s all;
+  transition: ease .6s all;
+}
+
+.main .form-check-input {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
+  -webkit-transition: ease .5s all;
+  transition: ease .5s all;
+}
+/*# sourceMappingURL=index.css.map */

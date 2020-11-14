@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-size !important;
+    background: linear-gradient(313deg, rgba(191, 199, 222, 1) 0%, rgba(255, 255, 255, 1) 100%) !important;
+}
+
+.main {
+    width: 100%;
+    border-radius: 20px;
+    padding: 45px 45px 45px 75px;
+    margin: 10% 0;
+    background: linear-gradient(273deg, rgba(233, 240, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 45px;
+        color: #271665;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+
+    .header__sub__title span {
+        width: 50px;
+        height: 2px;
+        background-color: #fa4c51;
+        float: left;
+    }
+
+    .header__sub__title h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 20px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fa4c51;
+        margin-top: -10px;
+    }
+
+    .content {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .sign_up_button {
+        width: 100%;
+        border: solid 2px #efefef;
+        background: #fff;
+        outline: none;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #666;
+        padding: 10px 0;
+
+        .goo {
+            color: #fa4c51;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .face {
+            color: #223581;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        &:hover {
+            border: solid 2px #e3e3e3;
+            transition: linear 0.5s all;
+        }
+    }
+
+    .sign__input {
+        width: 100%;
+        padding: 10px;
+        border: solid 1px #efefef;
+        background: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: sans-serif;
+        outline: none;
+
+        &:hover {
+            transition: ease 0.3s all;
+            border: solid 1px #cfcfcf;
+        }
+    }
+
+    #policyRead,
+    .policyText {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    form button {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        color: #fff;
+        border: solid 1px #fa4c51;
+        outline: none;
+        background-color: #fa4c51;
+        font-size: 18px;
+        
+        &:hover {
+        background-color: #fc7478;
+        transition: ease .6s all;
+        }
+    }
+
+    .form-check-input{
+        width: 20px;
+        margin-right: 10px;
+        height: 20px;
+        transition: ease .5s all;
+    }
+}
